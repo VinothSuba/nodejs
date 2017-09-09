@@ -1,0 +1,42 @@
+
+//NPM basic commands 
+
+1. Search npm library - return all libraries with related instance name
+ 
+ npm search libraryname
+
+2. View all library - view specific library 
+
+ npm view libraryname
+
+3. view more about current library
+
+ npm view libraryname | more
+
+4. view current version for library
+
+ npm view libraryname version
+
+5. view list of all library versions
+
+ npm view librarynmae versions
+
+6. create package.json 
+
+ npm init 
+
+ npm init --force
+
+ npm init -f
+
+ npm init -yes
+
+ npm init -y
+
+7. check current library latest version and old version details
+
+ npm outdated 
+
+8. update npm packages
+
+ npm update -D && npm update -S
